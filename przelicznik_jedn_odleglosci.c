@@ -13,10 +13,11 @@ int main(){
 	
 	double wejscie, wyjscie; 
 	
+	printf("Przelicznik jednostek odleglosci\n");
+	
 	printf("Podaj przeliczana odleglosc\n");
 	scanf("%lf", &wejscie);
 	
-	printf("Przelicznik jednostek odleglosci\n");
 	printf("Podaj jednostke danych wprowadzanych (1 - km / 2 - mila / 3 - jard)\n");
 	scanf("%i", &wybor);
 	
